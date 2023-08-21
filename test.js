@@ -34,7 +34,7 @@ test("One DOLLAR should be 106.58 YEN", function(){
     const expected =  (3.5 / 1.2) * 127.9;
     
     // this is the comparison for the unit test
-     expect(roundMoney(fromDollarToYen(3.5))).toBe(373.04);
+    expect(roundMoney(fromDollarToYen(3.5))).toBe(373.04);
 })
 
 test("One YEN should be 0.006 POUNDS", function(){
@@ -47,7 +47,7 @@ test("One YEN should be 0.006 POUNDS", function(){
     const expected =  (3.5 / 127.9) * 0.8;
     
     // this is the comparison for the unit test
-     expect(roundMoney(fromYenToPound(3.5))).toBe(0.02);
+    expect(roundMoney(fromYenToPound(3.5))).toBe(0.02);
 })
 
 function roundMoney (money) {
